@@ -1,0 +1,7 @@
+PES2UG23CS113
+
+To delete all stopped containers, unused networks, and dangling images at once, the command is: docker system prune
+
+To delete all images regardless of whether they are dangling: docker rmi (docker images -q)
+
+To delete all containers: docker rm (docker ps -aq)
